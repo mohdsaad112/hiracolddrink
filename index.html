@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hira Cool Drink</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+    }
+    header {
+      background-color: #0066cc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #005bb5;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .product-img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .buy-button {
+      background-color: #28a745;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .buy-button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    footer {
+      background-color: #004a99;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Hira Cool Drink</h1>
+    <p>The Ultimate Refreshment</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#product">Product</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Hira – Taste the Coolness</h2>
+    <img src="A_digital_design_of_a_single-page_website_for_the_.png" alt="Hira Cool Drink" class="product-img">
+    <p>Refreshing. Natural. Energizing.</p>
+    <button class="buy-button" disabled>Buy Now (Coming Soon)</button>
+    <p style="color: gray;">Online payments will be available soon.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Hira</h2>
+    <p>Hira is crafted with natural ingredients and bursting with flavor. One sip and you’ll be hooked!</p>
+  </section>
+
+  <section id="product">
+    <h2>Our Product</h2>
+    <p>Single Flavor – Original Hira Classic (250ml)</p>
+    <p>Price: ₹49</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@hiradrink.com</p>
+    <p>Phone: +91-9000000000</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Hira Cool Drink. All rights reserved.
+  </footer>
+</body>
+</html>
